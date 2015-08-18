@@ -38,8 +38,8 @@
    isInHoliday:(NSString *)holiday
       inSeason:(NSString *)season {
     
-    if([self.database[season][holiday] containsObject:supply] ==nil){
-        return NO;}else{return YES;};
+    if([self.database[season][holiday] containsObject:supply]){
+        return YES;}else{return NO;};
     
     
     return nil;
