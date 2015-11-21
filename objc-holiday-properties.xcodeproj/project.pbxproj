@@ -14,7 +14,6 @@
 		546766F907311642B94A5C3F /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C2B2F603313112B8EA78F9 /* libPods-unit_tests.a */; };
 		72344446F31CDF68C2487429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41196348C280583B8B4EA245 /* Images.xcassets */; };
 		B50CB8BF305FB7A5601D529C /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B9F834FC3901A5FBA6FA9 /* FISAppDelegate.m */; };
-		D6CEEB99BF26FDD218155B4E /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A54C36E1C12BFB75862C4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -30,7 +29,6 @@
 /* Begin PBXFileReference section */
 		26A462459A1A3B05B320B45C /* objc-holiday-properties-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "objc-holiday-properties-Info.plist"; sourceTree = "<group>"; };
 		313D95AA58E3411777EA71FC /* UnitTests-Prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UnitTests-Prefix.pch"; sourceTree = "<group>"; };
-		3A0A54C36E1C12BFB75862C4 /* Main.storyboard */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
 		3B5398245722B893044705D6 /* FISAppDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = FISAppDelegate.h; sourceTree = "<group>"; };
 		403B9F834FC3901A5FBA6FA9 /* FISAppDelegate.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = FISAppDelegate.m; sourceTree = "<group>"; };
 		41196348C280583B8B4EA245 /* Images.xcassets */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
@@ -134,7 +132,6 @@
 			children = (
 				3B5398245722B893044705D6 /* FISAppDelegate.h */,
 				403B9F834FC3901A5FBA6FA9 /* FISAppDelegate.m */,
-				3A0A54C36E1C12BFB75862C4 /* Main.storyboard */,
 				38F09B287EBFAA4DC05F62E7 /* Resources */,
 			);
 			path = "objc-holiday-properties";
@@ -298,7 +295,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50CB8BF305FB7A5601D529C /* FISAppDelegate.m in Sources */,
-				D6CEEB99BF26FDD218155B4E /* Main.storyboard in Sources */,
 				0AEC3F2B2D35D1B5CF488093 /* LaunchScreen.xib in Sources */,
 				049E537B001E20A52FB22CDE /* main.m in Sources */,
 			);
