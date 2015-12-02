@@ -25,3 +25,4 @@ This lab is a revisiting of the Holidays portion of the Apples and Holidays lab.
   * `addSupply:toHoliday:inSeason:` to insert the submitted "supply" argument into the mutable array of the submitted "holiday" key in the sub-dictionary of the submitted "season" key.
 
 **Hint:** *It is entirely acceptable (and encouraged) to reference your solution to the original "Apples and Holidays" lab when solving this lab.*
+<a href='https://learn.co/lessons/objc-holiday-properties' data-visibility='hidden'>View this lesson on Learn.co</a>
