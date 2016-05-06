@@ -14,7 +14,7 @@
 		546766F907311642B94A5C3F /* libPods-unit_tests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = B9C2B2F603313112B8EA78F9 /* libPods-unit_tests.a */; };
 		72344446F31CDF68C2487429 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 41196348C280583B8B4EA245 /* Images.xcassets */; };
 		B50CB8BF305FB7A5601D529C /* FISAppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 403B9F834FC3901A5FBA6FA9 /* FISAppDelegate.m */; };
-		D6CEEB99BF26FDD218155B4E /* Main.storyboard in Sources */ = {isa = PBXBuildFile; fileRef = 3A0A54C36E1C12BFB75862C4 /* Main.storyboard */; };
+		D6CEEB99BF26FDD218155B4E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3A0A54C36E1C12BFB75862C4 /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -220,7 +220,7 @@
 			isa = PBXProject;
 			attributes = {
 				CLASSPREFIX = FIS;
-				LastUpgradeCheck = 0510;
+				LastUpgradeCheck = 0710;
 				ORGANIZATIONNAME = "The Flatiron School";
 			};
 			buildConfigurationList = E9D48F3676AD83BEEF9EE2D5 /* Build configuration list for PBXProject "objc-holiday-properties" */;
@@ -254,6 +254,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				72344446F31CDF68C2487429 /* Images.xcassets in Resources */,
+				D6CEEB99BF26FDD218155B4E /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -298,7 +299,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				B50CB8BF305FB7A5601D529C /* FISAppDelegate.m in Sources */,
-				D6CEEB99BF26FDD218155B4E /* Main.storyboard in Sources */,
 				0AEC3F2B2D35D1B5CF488093 /* LaunchScreen.xib in Sources */,
 				049E537B001E20A52FB22CDE /* main.m in Sources */,
 			);
@@ -335,6 +335,7 @@
 				);
 				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -361,6 +362,7 @@
 				INFOPLIST_FILE = "objc-holiday-properties/Resources/Other-Sources/objc-holiday-properties-Info.plist";
 				INSTALL_PATH = "$(BUILT_PRODUCTS_DIR)";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -386,6 +388,7 @@
 					"-DNS_BLOCK_ASSERTIONS=1",
 					"$(inherited)",
 				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				PUBLIC_HEADERS_FOLDER_PATH = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
@@ -463,6 +466,7 @@
 				CLANG_WARN_SUSPICIOUS_IMPLICIT_CONVERSION = YES;
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
 				COPY_PHASE_STRIP = YES;
+				ENABLE_TESTABILITY = YES;
 				GCC_C_LANGUAGE_STANDARD = gnu99;
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_OPTIMIZATION_LEVEL = 0;
@@ -507,6 +511,7 @@
 				);
 				GCC_PREFIX_HEADER = "UnitTests/Resources/UnitTests-Prefix.pch";
 				INFOPLIST_FILE = "UnitTests/Resources/UnitTests-Info.plist";
+				PRODUCT_BUNDLE_IDENTIFIER = "com.flatironschool.${PRODUCT_NAME:rfc1034identifier}";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
